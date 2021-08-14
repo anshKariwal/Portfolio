@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #191923;
+    height: 100vh;
+    display:flex;
+    
+}
+#divl{
+    position:sticky;
+    top: 20px;
+    margin-left: 30px;
+    height: 95vh;
+    width: 20%;
+    background-color: #20202a;
+}
+#divlt{
+    height: 30vh;
+    width: 100%;
+    background-color: #24242f;
+    text-align: center;
+    padding: 15px;
+    color:#8d889c;
+    font-size: 120%;
+
+}
+#img1{
+    border-radius: 50px;
+}
+#divlb{
+    
+    position: sticky;
+    overflow-y: scroll;
+    top: 0;
+    width: 100%;
+    height:60vh;
+    padding-left: 25px ;
+    padding-right: 25px ;
+    padding-top: 25px;
+    font-size: 90%;
+    color: white;
+}
+
+
+#divlb::-webkit-scrollbar{
+    display: none;
+}
+
+.info{
+    display: flex;
+  justify-content:space-between; 
+}
+
+.art-lang-skills-item{
+    margin: 20px;
+}
+
+.art-cirkle-progress path:last-child {
+    stroke: #ffc107;
+}
+
+art-preloader-load path:last-child, .art-line-progress path:last-child, .art-cirkle-progress path:last-child {
+    stroke: #ffc107;
+}
+
+.art-cirkle-progress path:first-child {
+    stroke: #191923;
+}
+
+.progress {
+    display: flex;
+    height: 0.3rem;
+    margin-top: -5px;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #191923;
+    border-radius: .15rem;
+}
+ .mx-2{
+     color: gray;
+     text-decoration: none;
+     background-color: transparent;
+     transition: transform 0.1s;
+ }
+
+ .mx-2:hover{
+     color: white;
+     transform: scale(1.2);
+ }
+
+ .fas {
+     text-decoration: none;
+     color: #ffc107;
+ }
+
+ #divr{
+    position: sticky;
+    overflow-y: scroll;
+    top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 95vh;
+    width: 80%;
+    background-color: #20202a;
+    color: white;
+    padding:30px;
+
+ }
+ #foto{
+    opacity: 0.08; 
+    position: fixed;
+    top: 20px;
+    right:7%;
+    margin-bottom: 20px;
+    height: 95vh;
+    width: 70.4%;
+    z-index: -10;
+ }
+
+ .foto{
+     z-index: -1000;
+ }
+ #divr::-webkit-scrollbar{
+    display: none;
+}
+
+.container{
+    height: 40%;
+    position: static;
+    margin-top: -10px;
+}
+.bx1{
+    background-color: chocolate;
+    height: 100%;
+    width: 25%;
+    margin: 45px;
+}
+.bx2{
+    background-color: chocolate;
+    height: 100%;
+    width: 25%;
+    margin: 60px 45px 60px 45px;
+}
+
+.bx3{
+    background-color: chocolate;
+    height: 100%;
+    width: 25%;
+    margin: 80px 45px 45px 45px;
+}
+
+.ppup{
+    position: absolute;
+    background-color: #35353b;
+    height: 12%;
+    width: 23.3%;
+    opacity: 0;
+    /* transform: scale(0,1);
+    transform-origin: bottom;
+    transition: transform 0.4s ease-in-out; */
+}
+a{
+    text-decoration: none !important;
+}
+.ppup a p{
+    transition: transform 0.1s;
+}
+
+.ppup  a p:hover{
+    transform: scale(1.01,1.1);
+}
+
+#ppup1{
+    top: 42.3%;
+    left: 7.48%;
+}
+
+#ppup2{
+    top: 42.3%;
+    left: 38.4%;
+}
+
+
+#ppup3{
+    top: 42.3%;
+    left: 69.3%;
+}
+
+#ppup4{
+    top: 85%;
+    left: 69.3%;
+}
+
+#ppup5{
+    top: 85%;
+    left: 38.4%;
+}
+
+#ppup6{
+    top: 85%;
+    left: 7.5%;
+}
+
+#ppup7{
+    top: 139%;
+    left: 69.3%;
+}
+
+#ppup8{
+    top: 139%;
+    left: 38.4%;
+}
+
+#ppup9{
+    top: 139%;
+    left: 7.5%;
+}
+
+.bx1:hover .ppup{
+    opacity: 1;
+    color:white;
+    padding: 10px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    transform: translateY(-31.5%);
+    transition: transform 0.4s ease-in-out;
+       
+}
+
+.bx2:hover .ppup{
+    opacity: 1;
+    color:white;
+    padding: 10px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    transform: translateY(-40.5%);
+    transition: transform 0.4s ease-in-out;
+}
+
+.bx3:hover .ppup{
+    opacity: 1;
+    color:white;
+    padding: 10px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    transform: translateY(-40.5%);
+    transition: transform 0.4s ease-in-out;
+}
+
+
+
+/* .ppup.active{
+    color:white;
+    padding: 10px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    transform:scale(1,1) ;    
+} */
